@@ -1,12 +1,6 @@
 #include<iostream>
 using namespace std;
 
-void swap(int* a, int* b){
-    int aux = *a;
-    *a = *b;
-    *b = aux;
-}
-
 int main(){
     int n;
     cout << "Insira a ordem da matriz identidade: ";
